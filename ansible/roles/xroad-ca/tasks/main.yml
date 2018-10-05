@@ -40,6 +40,7 @@
   with_items:
     - "etc"
     - "usr"
+    - "lib"
 
 - name: copy ca group directories
   copy:
