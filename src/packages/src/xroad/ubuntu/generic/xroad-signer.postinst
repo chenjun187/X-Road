@@ -45,5 +45,7 @@ if [ "$1" = configure ]; then
 fi
 
 service xroad-signer restart
-exit 0
 
+#DEBHELPER#
+
+exit 0
